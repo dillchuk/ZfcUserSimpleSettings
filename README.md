@@ -23,7 +23,20 @@ class User extends ZfcEntityUser implements SettingsInterface {
 
 Configure the default values by installing the [auto-config file](config/zfcusersimplesettings.global.php.dist).
 
+Then add the lifecycle listener as follows:
+~~~
+    'doctrine' => [
+        'eventmanager' => [
+            'orm_default' => [
+                'subscribers' => [
+                    \ZfcUserSimpleSettings\Entity\Listener\SettingsLifecycle::class,
+                ],
+            ],
+        ],
+    ],
+~~~
+
 
 ## Bonus
 
-This functionality can actually be applied to any Doctrine entity; it doesn't require ZfcUser.
+This functionality can actually be applied to any Doctrine entity; ZfcUser isn't actually required.
