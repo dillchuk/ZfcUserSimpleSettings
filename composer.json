@@ -1,0 +1,39 @@
+{
+    "name": "illchuk/zfc-user-simple-settings",
+    "description": "A solid little \"user settings\" addition to your ZfcUser Doctrine entity; with configurable defaults.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "zf3",
+        "zfcuser",
+		"settings",
+		"doctrine"
+    ],
+    "homepage": "https://github.com/dillchuk/ZfcUserSimpleSettings",
+    "authors": [
+        {
+            "name": "Derek Illchuk",
+            "email": "derek@illchuk.com",
+            "homepage": "http://www.derekillchuk.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6|^7.0",
+        "doctrine/orm": "^2.5",
+        "doctrine/doctrine-orm-module": "^1.0",
+		"beaucal/beaucal-util": "^0.1",
+		"phpoption/phpoption": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+		"phpunit/dbunit": "2.0.x-dev",
+		"fzaninotto/faker": "^1.7",
+		"zendframework/zend-servicemanager": "^3.0",
+		"zendframework/zend-db": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZfcUserSimpleSettings\\": "src/"
+        }
+    }
+}

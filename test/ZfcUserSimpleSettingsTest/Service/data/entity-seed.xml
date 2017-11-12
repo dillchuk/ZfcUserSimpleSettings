@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<dataset>
+    <entity id="1" settings=""/>
+    <entity id="2" settings="[]"/>
+    <entity id="3" settings="scalar"/>
+    <entity id="4" settings="[broken]"/>
+    <entity id="5" settings="{&quot;setting&quot;: &quot;yes!&quot;}"/>
+</dataset>
