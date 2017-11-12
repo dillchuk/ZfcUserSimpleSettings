@@ -1,4 +1,6 @@
 # ZfcUserSimpleSettings
+[![Build Status](https://travis-ci.org/dillchuk/ZfcUserSimpleSettings.svg?branch=master)](https://travis-ci.org/dillchuk/ZfcUserSimpleSettings)
+
 A solid little "user settings" addition to your ZfcUser Doctrine entity; with configurable defaults.
 
 ## Installation
